@@ -1,6 +1,8 @@
 import { test, expect } from "@playwright/test";
 
 test("get started link", async ({ page }) => {
+  // Test script not work properly due to cloudfare human verifications :(
+
   // Go to the web page
   await page.goto("https://onlinelibrary.wiley.com/", {
     waitUntil: "load",
